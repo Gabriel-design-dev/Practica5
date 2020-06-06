@@ -1,0 +1,43 @@
+body{
+     background-image:url(fondo.jpg);   
+   
+    font-family: 600px;
+}
+#main-container{
+    margin: 70px auto;
+    width: 1000px;
+}
+table{
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+td,th{
+    
+    padding: 20px;
+}
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0f342d;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #369681;  
+    color:white;
+}
+.titulo{
+    text-align: center;
+    padding: 20px;
+   background-color: darkslategray;
+   color: floralwhite;
+}
+h3{
+    color: white;
+    color: lavenderblush;
+    padding: 10px;
+}
+
